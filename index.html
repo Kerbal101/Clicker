@@ -67,7 +67,7 @@
         document.getElementById("buy").addEventListener("click", function () {
             if (score >= 215) {
                 clickers = clickers + 1;
-                score = score - 10;
+                score = score - 215;
                 document.getElementById("clicker").innerText = "x" + clickers;
                 document.getElementById("scoreText").innerText = "Score: " + score;
             }
@@ -76,7 +76,7 @@
         document.getElementById("buy-auto-clicker").addEventListener("click", function () {
             if (score >= 12000) {
                 autoClickers = autoClickers + 1;
-                score = score - 1000;
+                score = score - 12000;
                 document.getElementById("scoreText").innerText = "Score: " + score;
                 document.getElementById("auto-clickers").innerText = "x" + autoClickers;
 
